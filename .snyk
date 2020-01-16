@@ -3,6 +3,7 @@ version: v1.13.0
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
+
   'npm:hoek:20180212':
     - gulp-sass > node-sass > request > hawk > hoek:
         patched: '2018-06-19T02:16:15.888Z'
