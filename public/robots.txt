@@ -1,3 +1,14 @@
 # robotstxt.org/
 
 User-agent: *
+
+# robots.txt 
+User-agent: *
+Disallow:
+Disallow: *.axd
+Disallow: /cgi-bin/
+Disallow: /member
+User-agent: bingbot
+Disallow: /
+User-agent: ia_archiver
+Disallow: /
